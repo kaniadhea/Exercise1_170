@@ -3,13 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXERCISE 1</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
+    <title>HTML dengan CSS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <p>.....</p>
-    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Tabel Judul</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Judul 1</td>
+                <td>Ini adalah Heading 1</td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Tabel Paragraf</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paragraf 1</td>
+                <td>Ini adalah paragraf pertama.</td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Tabel Gambar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gambar 1</td>
+                <td><img src="snow.jpg" alt="Gambar 1"></td>
+            </tr>
+            <tr>
+                <td>Gambar 2</td>
+                <td><img src="rapunzel.jpg" alt="Gambar 2"></td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr>
+                <th colspan="2">Tabel Tombol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tombol 1</td>
+                <td><button onclick="showAlert()">Klik di sini</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="alert" class="hidden">Ini adalah alert!</div>
+
+    <script>
+        function showAlert() {
+            document.getElementById('alert').classList.remove('hidden');
+        }
+    </script>
 </body>
 </html>

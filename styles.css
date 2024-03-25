@@ -1,12 +1,13 @@
-/* Styles for the page */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: darksalmon;
 }
 
-/* Styles for the tables */
+
 table {
     margin: 20px auto;
     border-collapse: collapse;
@@ -22,7 +23,7 @@ th {
     background-color: #f2f2f2;
 }
 
-/* Styles for the button */
+
 button {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -32,7 +33,7 @@ button {
     border-radius: 5px;
 }
 
-/* Styles for the alert */
+
 .hidden {
     display: none;
     background-color: #f44336;
